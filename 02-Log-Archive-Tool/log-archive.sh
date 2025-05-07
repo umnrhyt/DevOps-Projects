@@ -25,4 +25,4 @@ LOGS_ARCHIVE_NAME="$BASENAME_DIR"_archive_"$CURRENT_DATE"_"$CURRENT_TIME".tar.gz
 tar -czvf "$LOGS_ARCHIVE_NAME" "$LOGS_DIR"
 
 echo "The logs archive $LOGS_ARCHIVE_NAME was created"
-
+echo "done"
